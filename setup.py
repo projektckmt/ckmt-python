@@ -4,13 +4,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ckmt-sdk",
+    name="ckmt-python",
     version="1.0.0",
     author="CKMT",
-    description="Python SDK for CKMT API - A Shodan-like security data search platform",
+    description="Python SDK for CKMT API - A security data search platform",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ckmt-sdk",
+    url="https://github.com/projektckmt/ckmt-python",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
